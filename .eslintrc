@@ -7,6 +7,149 @@
     "es6": true
   },
   "rules": {
-    // TODO place rules here
+    "brace-style": [
+      "error",
+      "1tbs"
+    ],
+    "camelcase": [
+      "error",
+      {
+        "properties": "always"
+      }
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "computed-property-spacing": [
+      "error",
+      "never"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "func-call-spacing": [
+      "error",
+      "always"
+    ],
+    "func-names": [
+      "warn",
+      "always"
+    ],
+//    "arrow-body-style": [
+//      "error",
+//      "as-needed",
+//      {
+//        "requireReturnForObjectLiteral": true
+//      }
+//    ],
+    "implicit-arrow-linebreak": ["error", "below"],
+    "indent": [
+      "error",
+      4
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 80
+      }
+    ],
+    "new-parens": 2,
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multi-assign": "error",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ],
+    "no-new-object": 2,
+    "no-plusplus": 2,
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "ForInStatement",
+        "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array"
+      }
+    ],
+    "no-spaced-func": 2,
+    "no-tabs": "error",
+    "no-underscore-dangle": "error",
+    "nonblock-statement-body-position": [
+      "error",
+      "beside"
+    ],
+    "operator-linebreak": [
+      "error",
+      "before"
+    ],
+//    "padded-blocks": [
+//      "error",
+//      {
+//        "blocks": "never"
+//      }
+//    ],
+    "padded-blocks": [
+      "error", "never"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
+    "semi-style": [
+      "error",
+      "last"
+    ],
+    "space-before-blocks": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "ignore",
+        "asyncArrow": "always"
+      }
+    ],
+    "arrow-spacing": ["error", {"before" : true}],
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "space-infix-ops": "error",
+    "space-unary-ops": [
+      2,
+      {
+        "words": true,
+        "nonwords": false
+      }
+    ],
+    "spaced-comment": [
+      "error",
+      "always"
+    ]
   }
 }
