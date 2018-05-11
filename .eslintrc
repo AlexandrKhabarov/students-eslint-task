@@ -43,13 +43,6 @@
       "warn",
       "always"
     ],
-//    "arrow-body-style": [
-//      "error",
-//      "as-needed",
-//      {
-//        "requireReturnForObjectLiteral": true
-//      }
-//    ],
     "implicit-arrow-linebreak": ["error", "below"],
     "indent": [
       "error",
@@ -98,12 +91,6 @@
       "error",
       "before"
     ],
-//    "padded-blocks": [
-//      "error",
-//      {
-//        "blocks": "never"
-//      }
-//    ],
     "padded-blocks": [
       "error", "never"
     ],
